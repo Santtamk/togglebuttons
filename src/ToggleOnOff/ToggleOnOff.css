@@ -1,0 +1,26 @@
+.ToggleOnOff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+.toggle-button{
+    margin: 20px 20px;
+    padding: 50px 50px;
+    border: 5px solid transparent;
+    font-size: large;
+    border-radius: 50%;
+}
+
+.toggle-button.On{
+    background-color: green;
+    color: white;
+}
+
+.toggle-button.Off{
+    background-color: red;
+    color: white;
+}
+p{
+    font-weight: bold;
+}
